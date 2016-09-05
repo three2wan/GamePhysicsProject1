@@ -1,0 +1,1 @@
+g++ -w Main.cpp Border.cpp Enemy.cpp Player.cpp -I"c:\SFML-2.1\include" -I"C:\Box2D"  -L"C:\Box2D\Build\Box2D" -lBox2D -L"c:\SFML-2.1\lib" -lsfml-system -lsfml-window -lopengl32 -lglu32 -lsfml-graphics -lsfml-main -lsfml-audio -lsfml-network
